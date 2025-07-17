@@ -1,0 +1,25 @@
+.button {
+    -fx-background-color: #ef3353;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px; /* Este es el padding recomendado */
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #e15244;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 4, 0, 0, 2); /* Sombra más pronunciada al hover */
+}
+
+.button:pressed {
+    -fx-background-color: #f17144;
+    -fx-translate-y: 1px; /* Efecto de ser presionado */
+}
+
+.button:focused {
+    -fx-background-color: #f17144;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
