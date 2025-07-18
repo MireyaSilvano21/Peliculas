@@ -9,7 +9,7 @@
     <left>
         <Pane prefHeight="400.0" prefWidth="272.0" style="-fx-background-color: #723e4e;" stylesheets="@../../../css/Style1.css" BorderPane.alignment="CENTER">
             <children>
-                <Button fx:id="btnTablones" layoutX="2.0" layoutY="98.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="272.0" text="Añadir película" textFill="WHITE" />
+                <Button fx:id="btnTablones" layoutX="2.0" layoutY="98.0" mnemonicParsing="false" onAction="#mostararAñadir" prefHeight="80.0" prefWidth="272.0" text="Añadir película" textFill="WHITE" />
                 <Button fx:id="btnGestores" layoutX="-1.0" layoutY="188.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="272.0" text="Peliculas" textFill="WHITE" />
                 <Button fx:id="btnTareas" layoutX="-1.0" layoutY="282.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="272.0" text="Modificar" textFill="WHITE" />
 
